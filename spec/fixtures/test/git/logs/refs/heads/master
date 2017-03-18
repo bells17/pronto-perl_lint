@@ -1,0 +1,4 @@
+0000000000000000000000000000000000000000 22008f3c8c8ac93dded7afbf11b449f86d6f3c4a bells17 <bells171@gmail.com> 1489859668 +0900	commit (initial): first commit
+22008f3c8c8ac93dded7afbf11b449f86d6f3c4a 2de84e5e8d9d7aa010ad164f4408fd64d11798ad bells17 <bells171@gmail.com> 1489859802 +0900	commit: remove return 1; sentence
+2de84e5e8d9d7aa010ad164f4408fd64d11798ad 22008f3c8c8ac93dded7afbf11b449f86d6f3c4a bells17 <bells171@gmail.com> 1489860521 +0900	reset: moving to HEAD^
+22008f3c8c8ac93dded7afbf11b449f86d6f3c4a 94373cdbf67107b5c20ed35469ab5b5ac924a656 bells17 <bells171@gmail.com> 1489860796 +0900	commit: Add empty string
