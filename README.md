@@ -3,6 +3,8 @@
 [Pronto](https://github.com/mmozuras/pronto) runner for [Perl::Lint](https://github.com/moznion/Perl-Lint).
  ![](https://travis-ci.org/bells17/pronto-perl_lint.svg?branch=master)
 
+https://rubygems.org/gems/pronto-perl_lint
+
 Requirement Perl Modules
 -------------
 
