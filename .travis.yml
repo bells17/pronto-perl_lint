@@ -1,0 +1,10 @@
+sudo: required
+language: perl
+perl:
+  - 5.25.10
+before_install:
+  - rvm install 2.3.0
+  - gem install bundler -v 1.14.6
+install:
+  - bundle install
+script: bundle exec rake
