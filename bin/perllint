@@ -4,9 +4,6 @@
 use Perl::Lint;
 use JSON;
 
-$Data::Dumper::Terse = 1;
-
 my $linter = Perl::Lint->new;
 my $violations   = $linter->lint([@ARGV]);
 print encode_json($violations);
-

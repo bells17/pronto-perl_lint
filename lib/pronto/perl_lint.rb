@@ -35,7 +35,7 @@ module Pronto
 
     def new_message(offence, line)
       path = line.patch.delta.new_file[:path]
-      level = :error
+      level = :info
 
       Message.new(path, line, level, message(offence), nil, self.class)
     end
@@ -45,8 +45,13 @@ module Pronto
     end
 
     def run_perl_lint(path)
-      json = `#{Shellwords.escape(@lint)} #{Shellwords.escape(path)}`
-      JSON.parse(json)
+      begin
+        json = `#{Shellwords.escape(@lint)} #{Shellwords.escape(path)}`
+        return JSON.parse(json)
+      rescue JSON::ParserError => e
+        STDERR.puts e.backtrace
+        return []
+      end
     end
 
     def perl_file?(path)
