@@ -1,8 +1,7 @@
 # Pronto runner for Perl::Lint
 
-Pronto runner for [Perl::Lint](https://github.com/moznion/Perl-Lint).
-[What is Pronto?](https://github.com/mmozuras/pronto)
-
+[Pronto](https://github.com/mmozuras/pronto) runner for [Perl::Lint](https://github.com/moznion/Perl-Lint).
+ ![](https://travis-ci.org/bells17/pronto-perl_lint.svg?branch=master)
 
 Requirement Perl Modules
 -------------
