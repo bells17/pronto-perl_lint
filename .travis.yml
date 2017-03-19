@@ -2,7 +2,7 @@ sudo: false
 
 language: perl
 perl:
-  - "5.25.10"
+  - "perl-5.25.10"
 
 before_install:
   - if perlbrew list | grep 5.25.10 >/dev/null; then true; else perlbrew install --notest 5.25.10; fi
